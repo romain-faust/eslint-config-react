@@ -66,20 +66,6 @@ module.exports = {
 			},
 		],
 
-		// eslint-plugin-node
-		'node/no-missing-import': [
-			'error',
-			{
-				tryExtensions: ['.ts', '.js', '.json', '.node'],
-			},
-		],
-		'node/no-unsupported-features/es-syntax': [
-			'error',
-			{
-				ignores: ['modules'],
-			},
-		],
-
 		// eslint-plugin-promise
 		'promise/prefer-await-to-callbacks': 'error',
 		'promise/prefer-await-to-then': 'error',
