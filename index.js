@@ -11,6 +11,7 @@ module.exports = {
 		'plugin:unicorn/recommended',
 		'prettier',
 		'prettier/@typescript-eslint',
+		'prettier/react',
 		'prettier/unicorn',
 	],
 
