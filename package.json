@@ -1,0 +1,39 @@
+{
+	"author": "Romain Faust <romain.faust@gmail.com>",
+	"description": "Shared ESLint configuration for React.js",
+	"devDependencies": {
+		"@romain-faust/prettier-config": "~1.0.2",
+		"prettier": "~2.0.5"
+	},
+	"files": [
+		"index.js",
+		"native.js"
+	],
+	"license": "MIT",
+	"main": "index.js",
+	"name": "@romain-faust/eslint-config-react",
+	"peerDependencies": {
+		"@typescript-eslint/eslint-plugin": ">=3.6.1",
+		"@typescript-eslint/parser": ">=3.6.1",
+		"eslint": ">=7.4.0",
+		"eslint-config-prettier": ">=6.11.0",
+		"eslint-plugin-eslint-comments": ">=3.2.0",
+		"eslint-plugin-import": ">=2.22.0",
+		"eslint-plugin-jest": ">=23.18.0",
+		"eslint-plugin-prettier": ">=3.1.4",
+		"eslint-plugin-promise": ">=4.2.1",
+		"eslint-plugin-react": ">=7.20.5",
+		"eslint-plugin-react-hooks": ">=4.0.8",
+		"eslint-plugin-react-native": ">=3.8.1",
+		"eslint-plugin-unicorn": ">=20.1.0",
+		"prettier": ">=2.0.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/romain-faust/eslint-config-react.git"
+	},
+	"scripts": {
+		"format": "prettier --write index.js native.js"
+	},
+	"version": "1.0.0"
+}
